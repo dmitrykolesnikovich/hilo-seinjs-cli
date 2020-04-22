@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "{{NAME}}",
+  "usingComponents": {
+    "seinjs": "seinjs-my-tiny-program-component/seinjs"
+  }
+}

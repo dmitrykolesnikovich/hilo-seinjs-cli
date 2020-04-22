@@ -1,0 +1,14 @@
+{
+  "include": [
+    "**/sein-game/**/*.bin",
+    "**/sein-game/**/*.gltf",
+    "**/sein-game/**/*.glb",
+    "**/sein-game/**/*.atlas",
+    "**/sein-game/**/*.glsl"
+  ],
+  "exclude": [
+    "**/game/**",
+    "**/web/**",
+    "**/unity/**"
+  ]
+}

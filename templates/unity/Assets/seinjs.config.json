@@ -1,0 +1,35 @@
+{
+  "exportPath": "../Output",
+  "importPath": "./Resources",
+  "exporterSettings": {
+    "Export": {
+      "folder": "/Users/dtysky/Projects/seinjs-cli/templates/unity/Output",
+      "name": "main",
+      "splitChunks": false,
+      "skybox": false,
+      "unlit": false,
+      "checkEmpty": true,
+      "clear": false
+    },
+    "NormalTexture": {
+      "maxSize": 1024,
+      "transparentType": 1,
+      "opaqueType": 0,
+      "pngFormat": 4,
+      "jpgQulity": 85
+    },
+    "HDR": {
+      "type": 1
+    },
+    "CubeTexture": {
+      "maxSize": 1024
+    },
+    "Lighting": {
+      "ambient": true,
+      "lightMap": true,
+      "lightMapSize": 1024,
+      "reflection": true,
+      "reflectionSize": 1024
+    }
+  }
+}

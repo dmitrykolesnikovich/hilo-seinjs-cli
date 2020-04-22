@@ -1,0 +1,10 @@
+*.sln
+*.csproj
+.vs
+Library
+obj
+Temp
+Output
+Logs
+Assets/temp*
+sein-previewer-temp-assets
