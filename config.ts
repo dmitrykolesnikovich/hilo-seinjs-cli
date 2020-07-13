@@ -35,12 +35,14 @@ export const TEMPLATES = [
 export const ENGINES = [
   'none',
   'react',
+  'wx-mini-game',
+  'wx-mini-program',
   'my-tiny-game',
   'my-tiny-program'
 ];
 
 export const SEIN_DEPENDENCIES = {
-  seinjs: '^1.4.0',
+  seinjs: '^1.5.0',
   'cannon-dtysky': '^0.6.4',
   'seinjs-camera-controls': '^0.8.2',
   'seinjs-debug-tools': '^0.8.0',

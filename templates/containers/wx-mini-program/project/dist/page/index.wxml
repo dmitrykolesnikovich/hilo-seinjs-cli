@@ -1,0 +1,3 @@
+<view>
+  <seinjs bindSeinCanvasCreated="onSeinCanvasCreated" height="{{canvasHeight}}" />
+</view>

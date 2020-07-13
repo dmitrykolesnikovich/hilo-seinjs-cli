@@ -9,7 +9,7 @@ module.exports = {
   assetsDir: 'game/assets',
   meta: {
     DEV_DEPENDENCIES: {
-      "seinjs-platform-webpack-plugin": "^0.8.0",
+      "seinjs-platform-webpack-plugin": "^0.9.0",
       "webpack-dev-server": "^3.8.2",
       "html-webpack-plugin": "^3.2.0"
     },

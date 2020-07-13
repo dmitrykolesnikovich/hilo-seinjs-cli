@@ -1,6 +1,6 @@
 {
   "name": "seinjs-cli",
-  "version": "1.1.7",
+  "version": "1.2.0",
   "description": "Command tools for Sein.js.",
   "main": "index.js",
   "scripts": {

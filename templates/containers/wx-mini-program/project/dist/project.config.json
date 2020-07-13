@@ -1,0 +1,14 @@
+{
+  "packOptions": {
+    "ignore": [{
+      "type": "folder",
+      "value": "game"
+    }, {
+      "type": "folder",
+      "value": "web"
+    }, {
+      "type": "folder",
+      "value": "unity"
+    }]
+  }
+}

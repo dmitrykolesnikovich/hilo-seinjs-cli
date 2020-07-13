@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "{{NAME}}",
+  "usingComponents": {
+    "seinjs": "/miniprogram_npm/seinjs-wx-mini-program-component/seinjs"
+  }
+}

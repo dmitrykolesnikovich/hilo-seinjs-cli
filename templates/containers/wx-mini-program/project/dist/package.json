@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "seinjs-wx-mini-program-component": "^0.8.1"
+  }
+}
