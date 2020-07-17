@@ -8,8 +8,12 @@
       "splitChunks": false,
       "skybox": false,
       "unlit": false,
+      "noVertexColor": false,
       "checkEmpty": true,
       "clear": false
+    },
+    "Animation": {
+      "forceLinear": true
     },
     "NormalTexture": {
       "maxSize": 1024,

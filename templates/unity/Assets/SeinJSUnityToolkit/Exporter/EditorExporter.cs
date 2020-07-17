@@ -321,7 +321,7 @@ namespace SeinJS
             var node = entry.tr2node[tr];
             foreach (var component in tr.GetComponents<Component>())
             {
-                if (ExtensionManager.Component2Extensions.ContainsKey(component.GetType()))
+                if (component && ExtensionManager.Component2Extensions.ContainsKey(component.GetType()))
                 {
                     if (node.Extensions == null)
                     {
@@ -380,7 +380,7 @@ namespace SeinJS
             {
                 if (!entry.bones.Contains(tr))
                 {
-                    Debug.LogError("Error while exporting skin for " + skin.name + " (skipping skinning export).\nClick for more details:\n \nThe following bones are used but are not selected" + tr.name + "\n");
+                    Utils.ThrowExcption("Error while exporting skin for " + skin.name + " (skipping skinning export).\nClick for more details:\n \nThe following bones are used but are not selected" + tr.name + "\n");
                     return false;
                 }
             }
